@@ -17,11 +17,11 @@ function Header() {
           <nav className="site-nav">
             <span className='site-logo'>LOGO</span>
             <ul className="navbar-list">
-              <li className="navbar-list__item">Home</li>
-              <li className="navbar-list__item">About me</li>
-              <li className="navbar-list__item">Skills</li>
-              <li className="navbar-list__item">Portfolio</li>
-              <li className="navbar-list__item">Contacts</li>
+              <li className="navbar-list__item"><p>Home</p></li>
+              <li className="navbar-list__item"><p>About me</p></li>
+              <li className="navbar-list__item"><p>Skills</p></li>
+              <li className="navbar-list__item"><p>Portfolio</p></li>
+              <li className="navbar-list__item"><p>Contacts</p></li>
             </ul>
             <span ref={barsRef} onClick={barsAnimation} className='navbar-bars'></span>
           </nav>

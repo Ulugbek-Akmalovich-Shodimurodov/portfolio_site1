@@ -51,6 +51,9 @@
 .navbar-list__item{
     position: relative;
 }
+.navbar-list__item p{
+    pointer-events: none;
+}
 .navbar-list__item::before{
     position: absolute;
     bottom: -10px;
