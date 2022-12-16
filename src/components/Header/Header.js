@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import Container from '../Container/Container'
+import Logo from '../../assets/images/logo.png'
 import './Header.css'
 
 
@@ -15,7 +16,7 @@ function Header() {
     <header className='site-header'>
         <Container>
           <nav className="site-nav">
-            <span className='site-logo'>LOGO</span>
+            <span className='site-logo'><img src={Logo} alt="logo" className='site-logo__img' /></span>
             <ul className="navbar-list">
               <li className="navbar-list__item"><p>Home</p></li>
               <li className="navbar-list__item"><p>About me</p></li>

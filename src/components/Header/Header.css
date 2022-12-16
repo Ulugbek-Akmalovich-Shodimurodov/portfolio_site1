@@ -19,13 +19,13 @@
     align-items: center;
 }
 .site-logo{
-    font-family: 'Impact';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
-
-    color: #FF8303;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+}
+.site-logo__img{
+    width: 80px;
 }
 .navbar-list{
     padding: 0 40px;
