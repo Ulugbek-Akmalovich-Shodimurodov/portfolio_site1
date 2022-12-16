@@ -26,8 +26,6 @@
     line-height: 39px;
 
     color: #FF8303;
-
-    cursor: pointer;
 }
 .navbar-list{
     padding: 0 40px;
@@ -52,8 +50,6 @@
 }
 .navbar-list__item{
     position: relative;
-
-    cursor: pointer;
 }
 .navbar-list__item::before{
     position: absolute;
@@ -79,8 +75,6 @@
 .navbar-bars{
     margin-right: 40px;
     display: none;
-
-    cursor: pointer;
 }
 @media screen and (max-width: 875px) {
     .navbar-bars{
