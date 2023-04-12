@@ -5,22 +5,16 @@ import './apiWorks.css'
 
 function ApiWorks() {
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then(response => {
         setData(response.data);
-        setLoading(false);
       })
       .catch(error => {
         console.error(error);
-        setLoading(false);
       });
   }, []);
-
-  console.log(data);
 
   return (
     <div className='api-box'>
